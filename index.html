@@ -1,0 +1,154 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat:wght@700&family=Yeseva+One&display=swap" rel="stylesheet">
+            <meta charset="utf-8">
+        <title>CodeFee</title>
+        <style>
+            body{
+                font-family: 'Alfa Slab One', cursive;
+                width: auto;
+                height: auto;
+                margin-left:auto;
+                margin-right:auto;
+                margin-top:auto;
+                overflow: hidden;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgba(0, 0, 0, 0.8);
+                width: 1920px;
+                height: 130px;
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                z-index: 1;
+            }
+
+            ul li {
+                float: left;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            ul li a {
+                display: block;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                padding: 15px 100px;
+                text-decoration: none;
+                font-size: 20px;
+                transition: 0.3s;
+            }
+
+            ul li a.active:hover {
+                background-color: rgb(21, 21, 21);
+                color: orange;
+            }
+            
+            ul li a.active {
+                color: white;
+                margin-top: 35px;
+                border-radius: 30px;
+            }
+            p img{
+                opacity:1;
+            }
+            
+            #subp {
+                font-family: 'Yeseva One', cursive;
+                position: absolute;	
+                color: white;
+                text-align: right;
+                font-size: 50px;
+                top: 450px;
+                left: 360px;
+            }
+
+            #pagetitle {
+                position: absolute;
+                font-family: 'Yeseva One', cursive;
+                color: white;
+                text-align: right;
+                font-size: 150px;
+                top: 185px;
+                left: 350px;
+            }
+            
+            #header {
+                background-color:rgb(0, 0, 0); 
+                width: 100%;
+                background-position: center center;
+                background-size: cover;
+            }
+
+            #background {
+                background-color: rgb(0, 0, 0);
+                opacity: 0.2;
+                height: 1080px;
+                background-position: center center;
+                background-size: cover;
+            }
+            
+
+            video{
+                position:absolute;
+                height: auto;
+                width: 1920px;
+                height: auto;
+                opacity: 0.6;
+                
+            }
+
+            .button {
+                background-color: rgba(0, 0, 0, 0.6);
+                border: 2px solid rgb(255, 255, 255);
+                border-radius: 10px;
+                font-size: 30px;
+                position: absolute;
+                cursor: pointer;
+                font-family: 'Montserrat', sans-serif;
+                color: rgb(255, 255, 255);
+                top: 575px;
+                left: 360px;
+                padding: 10px 20px;
+                text-decoration: none;
+            }
+
+            button:hover {
+                background-color: rgba(0, 0, 0, 0.9);
+                transition: 0.25s;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div id="nav">
+            <ul>
+                <li><a class="active" href="CSQ2AA1-Gonzales-Menu.html">MENU</a></li>
+                <li><a href="index.html"><img src="CodeFee2.png" alt="CodeFee" width="150" height="100"></a></li>
+                <li><a class="active" href="CSQ2AA1-Gonzales-AboutUs.html">ABOUT US</a></li>
+
+            </ul>
+        </div>
+        
+        <div id="header">
+                <video width="320" height="240" autoplay muted loop>
+                <source src="coffeebetter.mp4" type="video/mp4">
+                <source src="coffeebetter.mp4" type="video/ogg">
+                </video>
+                <div id="background"></div>
+                <p id="pagetitle">Coders Cafe</p>
+                <p id="subp">We use the good food language</p>
+                <a href='CSQ2AA1-Gonzales-Menu.html'></a>
+                <a href="CSQ2AA1-Gonzales-Menu.html" class="button">Click Here</a>
+        </div>
+    </body> 
+    </html>

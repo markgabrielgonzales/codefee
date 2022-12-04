@@ -1,0 +1,192 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat:wght@700&family=Yeseva+One&display=swap" rel="stylesheet">
+            <meta charset="utf-8">
+        <title>CodeFee</title>
+        <style>
+            body{
+                font-family: 'Alfa Slab One', cursive;
+                width: auto;
+                height:1000px;
+                margin-left:auto;
+                margin-right:auto;
+                margin-top:auto;
+            }
+
+            #nav{
+                position: sticky;
+                top: 0;
+                z-index: 1;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(0, 0, 0);
+                width: 100%;
+                height: 130px;
+                display: flex;
+                justify-content: center;
+                position: absolute;
+            }
+
+            ul li {
+                float: left;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            ul li a {
+                display: block;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                padding: 15px 100px;
+                text-decoration: none;
+                font-size: 20px;
+                transition: 0.3s;
+            }
+
+            ul li a.active:hover {
+                background-color: rgb(21, 21, 21);
+                color: orange;
+            }
+            
+            ul li a.active {
+                color: white;
+                margin-top: 35px;
+                border-radius: 30px;
+            }
+            
+            #subp {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 150px;
+                top: 100px;
+                position: relative;
+                color: rgb(255, 255, 255);
+                text-align: center;
+            }
+
+            #pagetitle {
+                position: relative;
+                font-family: 'Montserrat', sans-serif;
+                color: rgb(255, 255, 255);
+                font-size: 25px;
+                top: 260px;
+                text-align: center;
+            }
+            #desc {
+                position: relative;
+                font-family: 'Yeseva One', cursive;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                text-align: center;
+                bottom: 50px;
+            }
+            
+            #header {
+                background-color:rgb(0, 0, 0); 
+                width: 100%;
+                height: 700px;
+                background-size: cover;
+                float: left;
+                z-index: -1;
+                
+            }
+
+            #section{
+                font-family: 'Montserrat', sans-serif;
+                width: auto;
+                box-sizing: border-box;
+
+            }
+            
+            video{
+                position:absolute;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                opacity: 0.5;   
+            }
+
+            .textcolumn{
+                float: left;
+                width: 563px;
+                height: 750px;
+                background-color: rgb(222, 184, 135);
+                position: relative;
+                padding-top: 100px;
+                padding-left: 50px;
+                padding-right: 20px;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            h1{
+                font-size: 40px;
+            }
+
+            h2 {
+                font-family: 'Yeseva One', cursive;
+                font-size: 20px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+
+            h4{
+                font-size: 20px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="nav">
+            <ul>
+                <li><a class="active" href="CSQ2AA1-Gonzales-Menu.html">MENU</a></li>
+                <li><a href="index.html"><img src="CodeFee2.png" alt="CodeFee" width="150" height="100"></a></li>
+                <li><a class="active" href="CSQ2AA1-Gonzales-AboutUs.html">ABOUT US</a></li>
+            </ul>
+        </div>
+        <div id="header">
+                <video autoplay muted loop>
+                <source src="aboutus.mp4" type="video/mp4">
+                <source src="aboutus.mp4" type="video/ogg">
+                </video>
+                <p id="pagetitle"> Contact Us </p>
+                <p id="subp">About Us</p>
+                <p id="desc">Indulge yourself into some freshly brewed coffee. Or design a cafe if you want to!</p>
+        </div>
+    <div id="section">
+        <div class="textcolumn">
+            <h1><strong>&emsp;About The Restaurant</strong></h1>
+            <h2>In 2022, sir JM created an assessment where we have to create a cafe or restaurant. Thats basically it lol. But let me tell you about my experience throughout this journey.</h2>
+            <h2>I was really demotivated to code because I am busy with personal things. But with enough courage, I managed to start doing the structure. And after research more than I can count, I managed to somewhat finish it.</h2>
+            <h2>Several problems I encountered were making the navigation bar because I did it on scratch and not copy pasted it from somewhere. Second is just correctly lining up containers to where they're supposed to go. And lastly, is actually picking the correct designs and content.</h2>
+            <h2>Even though I passed this website late, I hope you like it and I am looking forward to learn more about Computer Science.</h2>
+        </div>
+        <div class="textcolumn">
+            <h1><strong>Contact Us</strong></h1>
+            <h4>0912-345-6789</h4>
+            <h4>codefeeservices@gmail.com</h4>
+            <h1>Operating Hours</h1>
+            <h4>Sunday : &emsp;&emsp;&emsp; 10:00 AM - 4:00 PM</h4>
+            <h4>Monday : &emsp;&emsp;&nbsp;&nbsp;&nbsp; 8:00 AM - 6:00 PM</h4>
+            <h4>Tuesday : &emsp;&emsp;&nbsp;&nbsp; 8:00 AM - 6:00 PM</h4>
+            <h4>Wednesday : &nbsp;&nbsp;&nbsp; 8:00 AM - 5:00 PM</h4>
+            <h4>Thursday :&emsp;&emsp;&nbsp;&nbsp; 8:00 AM - 6:00 PM</h4>
+            <h4>Friday : &emsp;&emsp;&emsp;&nbsp;&nbsp; 8:00 AM - 6:00 PM</h4>
+            <h4>Saturday : &emsp;&emsp; 10:00 AM - 4:00 PM</h4>
+            </div>
+        <div class="textcolumn">
+            <h1><strong>How To Get To Us</strong></h1>
+            <h4>4304 Saint Denis St, Montreal, Quebec H2J 2K8, Canada</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d698.8482289180067!2d-73.58029549357674!3d45.52229819430545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91b036a4a2e5b%3A0x7c4fd084179ff61b!2zQ29kZSAmIENhZsOp!5e0!3m2!1sen!2sph!4v1669831484696!5m2!1sen!2sph" width="550" height="450" style="border:10px solid rgb(137, 110, 74);" ></iframe>
+        </div>
+    </div>
+
+    </body> 
+    </html>

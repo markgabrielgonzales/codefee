@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat:wght@700&family=Yeseva+One&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+    <title>CodeFee</title>
+    <style>
+        body{
+            font-family: 'Alfa Slab One', cursive;
+            width: auto;
+            height: 3500px;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:auto;
+            overflow-x:hidden;
+        }
+
+        #nav{
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 1);
+			width: 1920px;
+            height: 130px;
+            display: flex;
+			justify-content: center;
+            position: absolute;
+        }
+
+        ul li {
+            float: left;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        ul li a {
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 15px 100px;
+            text-decoration: none;
+            font-size: 20px;
+            transition: 0.3s;
+        }
+
+        ul li a.active:hover {
+            background-color: rgb(21, 21, 21);
+            color: orange;
+        }
+        
+        ul li a.active {
+            color: white;
+            margin-top: 35px;
+            border-radius: 30px;
+        }
+        
+        #subp {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 150px;
+            top: 100px;
+            position: relative;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        #pagetitle {
+            position: relative;
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            top: 260px;
+            text-align: center;
+        }
+        #desc {
+            position: relative;
+            font-family: 'Yeseva One', cursive;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            text-align: center;
+            bottom: 50px;
+        }
+        
+        #header {
+            background-color:rgb(0, 0, 0); 
+            width: 1920px;
+            height: 700px;
+            background-size: cover;
+            float: left;
+            
+        }
+
+        #background {
+            background-color: rgb(255, 255, 255);
+            opacity: 0.5;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        #section{
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        box-sizing: border-box;
+        }
+         
+        video{
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.5;
+        }
+
+        .image{
+            float: left;
+            width: 50%;
+            height: 600px;
+            background-color: rgb(255, 255, 255);
+            position:relative;
+        }
+
+        .textcolumn{
+            float: left;
+            width: 50%;
+            height: 500px;
+            background-color: burlywood;
+            position: relative;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1{
+            font-size: 50px;
+        }
+
+        h2 {
+            font-family: 'Yeseva One', cursive;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .preview{
+            float: left;
+            width: 50%;
+            height: 600px;
+            position:relative;
+            background-color:rgb(0, 0, 0); 
+            background-size: cover;
+            cursor:pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+         <ul>
+            <li><a class="active" href="CSQ2AA1-Gonzales-Menu.html">MENU</a></li>
+            <li><a href="index.html"><img src="CodeFee2.png" alt="CodeFee" width="150" height="100"></a></li>
+            <li><a class="active" href="CSQ2AA1-Gonzales-AboutUs.html">ABOUT US</a></li>
+
+          </ul>
+    </div>
+    <div id="background"></div>
+    <div id="header">
+            <video autoplay muted loop>
+            <source src="coffeedrink.mp4" type="video/mp4">
+            <source src="coffeedrink.mp4" type="video/ogg">
+            </video>
+            <p id="pagetitle">Menu</p>
+            <p id="subp">Coffee</p>
+            <p id="desc">Indulge yourself into some freshly brewed coffee. Or design a cafe if you want to!</p>
+    </div>
+<div id="section">
+    <div class="textcolumn">
+        <h1><strong>How We Make Our Coffee</strong></h1>
+        <h2>Coffee is like a magical elixir that reinvigorates your body, mind, and soul. That's why we have to do it right. 
+           Maxing out the potential of this miracle liquid involves the right roast, grind, brewing style, water temperature, and other factors you may not be doing correctly, or even considering.
+            With CodeFee, you just have to choose a drink, we brew it, and you are good to go.</h2>
+    </div>
+    <div class="preview">
+        <video controls>
+            <source src="makingcoffee.mp4" type="video/mp4">
+            <source src="makingcoffee.mp4" type="video/ogg">
+            </video>
+    </div>
+    <div class="image">
+        <img src="americano.png" alt="americano" width="980" height="600">
+    </div>
+    <div class="textcolumn">
+        <h1><strong>AMERI CAMO</strong></h1>
+        <h3>"Words cannot espresso how much you mean to me."</h3>
+        <h2>A type of coffee drink prepared by diluting an espresso with hot water giving it a similar strength to traditionally brewed coffee. The twist is that it is blended well to enhance your stealth.  Its strength varies with the number of shots of espresso and amount of water added.</h2>
+        <h1>$2.7</h1>
+        </div>
+    <div class="textcolumn">
+        <h1><strong>SLAY LATTE</strong></h1>
+        <h3>"I love you a latte."</h3>
+        <h2>Although there is no standard recipe for making a latte, it generally involves adding steamed milk to a single shot of espresso.
+
+            In my case, it is topped with a heavy layer of slayfulness, and sugars or sweeteners may be mixed in as well.
+            
+            Compared with the other lattes, slay latte have a more bigger, beautiful sweet flavor, as they contain a greater proportion of steamed confidence.</h2>
+        <h1>$3.4</h1>
+    </div>
+    <div class="image">
+        <img src="latte.png" alt="latte" width="980" height="600">
+    </div>
+    <div class="image">
+        <img src="mocha.png" alt="americano" width="980" height="600">
+    </div>
+    <div class="textcolumn">
+        <h1><strong>COCOA-MOCHA</strong></h1>
+        <h3>"You're mocha me crazy."</h3>
+        <h2>Cocoa-Mocha is a high quality type of mocha made from a specific cacao bean. It's easily confused with the flavored drink also called a mocha, which combines coffee and chocolate. They are totally different and definitely not the same thing I promise.</h2>
+        <h1>$4.6</h1>
+        </div>
+    <div class="textcolumn">
+        <h1><strong>SLAPPUCINNO</strong></h1>
+        <h3>"I'm feeling a bit of deja brew"</h3>
+        <h2>The slappucinno is a popular coffee drink that is made by topping a shot of espresso with steamed milk and milk foam.
+
+            Typically, it contains a secret ingredient that makes it slap harder than Will Smith.
+            
+            This gives the final product a creamy, rich, and smooth taste and texture.</h2>
+        <h1>$4.3</h1>
+    </div>
+    <div class="image">
+        <img src="cappuccino.png" alt="americano" width="980" height="600">
+    </div>
+    <div class="image">
+        <img src="macchiato.png" alt="americano" width="980" height="600">
+    </div>
+    <div class="textcolumn">
+        <h1><strong>MARKCHIATTO</strong></h1>
+        <h3>"My love for you is like coffee, strong ang pure."</h3>
+        <h2>Normally, the macchiato is made by combining a shot of espresso with a small splash of milk.
+            However, many other variations are available, including the markchiatto, which is made by adding a shot of pure love to a glass of hot milk.
+            Because the markchiatto is usually made using just a small amount of bitterness, it has a much stronger flavor than other coffee drinks.</h2>
+        <h1>$6.89</h1>
+        </div>
+    <div class="desert">
+
+    </div>
+</div>
+
+</body> 
+</html>
